@@ -152,7 +152,8 @@ function obtenerObjetos(e){
 }
 function agregarAlRecibo(){
     
-    limpiarEnlace(espacioObjetos)
+    limpiarEnlace(espacioObjetos);
+    limpiarEnlace(espacioBorrar);
     objetosRecibo.forEach(obj => {
         
         const div = document.createElement('div')
