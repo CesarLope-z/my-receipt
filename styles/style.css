@@ -120,6 +120,7 @@ footer{
         
     }
     .formulario{
+        display: grid;
         margin-bottom: 1rem;
     }
     .formularios2{
