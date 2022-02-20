@@ -3,6 +3,7 @@
 
 body{
     background-image: url(../imgs/fnd.jpg);
+    background-position: center;
     background-attachment: fixed;
 }
 .name{
