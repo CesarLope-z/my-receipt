@@ -42,7 +42,7 @@ function cargarTodo(){
         objetosRecibo = JSON.parse( localStorage.getItem('objetos')) || []
         agregarAlRecibo();
         
-        espacioCode.textContent = Math.floor(Math.random() * 900000) + 100000;
+        espacioCode.textContent = Math.floor(Math.random() * 900) + 100 + "-" + Math.floor(Math.random() * 900) + 100 ;
 
         
 
