@@ -10,6 +10,7 @@ espacioObjetos = document.querySelector('#objetos');
 espacioTotal = document.querySelector('#total');
 espacioBorrar = document.querySelector('#select');
 espacioArticulos = document.querySelector('#articulos')
+espacioCode = document.querySelector('#code')
 
 recibo = document.querySelector('#recibo');
 
@@ -40,6 +41,8 @@ function cargarTodo(){
 
         objetosRecibo = JSON.parse( localStorage.getItem('objetos')) || []
         agregarAlRecibo();
+        
+        espacioCode.textContent = Math.floor(Math.random() * 900000) + 100000;
 
         
 
