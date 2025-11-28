@@ -183,7 +183,7 @@ function agregarAlRecibo(){
         `;
         espacioObjetos.appendChild(div)
 
-        total = total + (obj.cantidad * obj.precio)
+        total = (total + (obj.cantidad * obj.precio))*1.13
         espacioTotal.textContent = `$ ${Math.ceil(total)}`;
 
         
